@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#2488CA",
+        primaryLight: "#EDF9FD",
+        purple: "#CFCEFF",
+        purpleLight: "#F1F0FF",
+        yellow: "#FAE27C",
+        yellowLight: "#FEFCE8",
       },
     },
   },
