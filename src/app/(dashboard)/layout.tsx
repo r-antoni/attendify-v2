@@ -9,7 +9,6 @@ export default function AppLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
       <div className="flex h-screen">
         {/* Left side */}
         <div className="w-1/6 md:w-1/12 lg:w-1/6 xl:w-[14%] p-4">
@@ -20,11 +19,10 @@ export default function AppLayout({
           <Menu />
         </div>
         {/* Right side */}
-        <div className="w-full bg-slate-200 overflow-y-scroll">
+        <div className="w-full bg-slate-200 overflow-y-scroll text-black">
           <Navbar />
           {children}
         </div>
       </div>
-    </html>
   );
 }
